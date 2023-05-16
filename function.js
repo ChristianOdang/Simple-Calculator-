@@ -15,7 +15,7 @@ const calculate = (btnValue) => {
     //DEL btn
   } else if (btnValue === "DEL") {
     output = output.toString().slice(0, -1);
-    // special characters
+    // special charactersgh
   } else {
     if (output === "" && specialChars.includes(btnValue))
       return;
